@@ -44,7 +44,7 @@ const Trending = ({ trendingPosts }: Props) => {
     <section className="pt-3 pb-10">
       <div className="flex items-center gap-3">
         <div className="bg-wh-900 py-2 px-8 text-wh-10 font-bold">TRENDING</div>
-        <p className="text-sm">
+        <p className="text-base">
           Habitant morbi tristique senectus et netus et malesuada. Tristique
           nulla aliquet enim tortor at auctor urna nunc id.
         </p>
@@ -67,7 +67,7 @@ const Trending = ({ trendingPosts }: Props) => {
           className="col-span-1 row-span-1 bg-wh-500"
           post={trendingPosts[3]}
         />
-        <p className="text-sm">
+        <p className="text-base">
           Arcu risus quis varius quam quisque id. Pellentesque eu tincidunt
           tortor aliquam nulla facilisi cras. Accumsan sit amet nulla facilisi
           morbi tempus iaculis urna id.

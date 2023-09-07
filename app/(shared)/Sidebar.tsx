@@ -27,7 +27,7 @@ const Sidebar = (props: Props) => {
           height={1000}
         />
       </div>
-      <h4 className="bg-wh-900 py-3 px-5 text-wh-50 text-xs font-bold text-center">
+      <h4 className="bg-wh-900 py-3 px-5 text-wh-50 text-sm font-bold text-center">
         About the Blog
       </h4>
       <div className="flex justify-center my-3">
@@ -38,10 +38,10 @@ const Sidebar = (props: Props) => {
           style={{ objectFit: "cover" }}
         />
       </div>
-      <h4 className="py-3 px-5 text-wh-500 font-bold text-center">
+      <h4 className="py-3 px-5 text-wh-500 font-bold text-center text-base">
         TheBlueBaron
       </h4>
-      <p className="text-wh-500 text-center text-sm">
+      <p className="text-wh-500 text-center text-base">
         Turpis massa sed elementum tempus egestas sed sed risus
       </p>
     </section>
