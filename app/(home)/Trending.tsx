@@ -67,7 +67,7 @@ const Trending = ({ trendingPosts }: Props) => {
           className="col-span-1 row-span-1 bg-wh-500"
           post={trendingPosts[3]}
         />
-        <p className="text-base">
+        <p className="text-base mt-2">
           Arcu risus quis varius quam quisque id. Pellentesque eu tincidunt
           tortor aliquam nulla facilisi cras. Accumsan sit amet nulla facilisi
           morbi tempus iaculis urna id.
